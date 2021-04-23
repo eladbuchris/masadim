@@ -50,7 +50,7 @@
     </schema>
     <schema id="14" parent="2" name="dbo">
       <ObjectId>1</ObjectId>
-      <IntrospectionTimestamp>2021-04-23.13:42:18.600</IntrospectionTimestamp>
+      <IntrospectionTimestamp>2021-04-23.14:04:32.127</IntrospectionTimestamp>
       <Current>1</Current>
     </schema>
     <schema id="15" parent="2" name="guest">
@@ -141,5 +141,229 @@
       <Type>database-role</Type>
       <AuthType>none</AuthType>
     </role>
+    <table id="32" parent="14" name="Actors">
+      <ObjectId>1918629878</ObjectId>
+      <CreatedTimestamp>2021-04-23.14:04:29.233</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-23.14:04:29.257</ModifiedTimestamp>
+    </table>
+    <table id="33" parent="14" name="Movies">
+      <ObjectId>1998630163</ObjectId>
+      <CreatedTimestamp>2021-04-23.14:04:29.243</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-23.14:04:29.257</ModifiedTimestamp>
+    </table>
+    <table id="34" parent="14" name="Participated">
+      <ObjectId>2094630505</ObjectId>
+      <CreatedTimestamp>2021-04-23.14:04:29.253</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-23.14:04:29.253</ModifiedTimestamp>
+    </table>
+    <column id="35" parent="32" name="aID">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="36" parent="32" name="aName">
+      <Position>2</Position>
+      <DataType>varchar(30 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="37" parent="32" name="dateofBirth">
+      <Position>3</Position>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="38" parent="32" name="marriedTo">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <index id="39" parent="32" name="PK__Actors__DE518BE662B0A41B">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>aID</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="40" parent="32" name="PK__Actors__DE518BE662B0A41B">
+      <ObjectId>1934629935</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2021-04-23.14:04:29.233</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-23.14:04:29.233</ModifiedTimestamp>
+      <ColNames>aID</ColNames>
+      <UnderlyingIndexName>PK__Actors__DE518BE662B0A41B</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <check id="41" parent="32" name="CK__Actors__aID__74444068">
+      <ObjectId>1950629992</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2021-04-23.14:04:29.237</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-23.14:04:29.237</ModifiedTimestamp>
+      <ColNames>aID</ColNames>
+      <Predicate>[aID]&gt;=100000000 AND [aID]&lt;=999999999</Predicate>
+    </check>
+    <check id="42" parent="32" name="CK__Actors__marriedT__762C88DA">
+      <ObjectId>1982630106</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2021-04-23.14:04:29.237</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-23.14:04:29.237</ModifiedTimestamp>
+      <ColNames>marriedTo</ColNames>
+      <Predicate>[marriedTo]&gt;=100000000 AND [marriedTo]&lt;=999999999</Predicate>
+    </check>
+    <check id="43" parent="32" name="CK__Actors__dateofBi__753864A1">
+      <ObjectId>1966630049</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2021-04-23.14:04:29.237</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-23.14:04:29.237</ModifiedTimestamp>
+      <ColNames>dateofBirth</ColNames>
+      <Predicate>datepart(year,[dateofBirth])&lt;2005</Predicate>
+    </check>
+    <column id="44" parent="33" name="mName">
+      <Position>1</Position>
+      <DataType>varchar(30 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="45" parent="33" name="mYear">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="46" parent="33" name="genre">
+      <Position>3</Position>
+      <DataType>varchar(30 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="47" parent="33" name="mLength">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <index id="48" parent="33" name="PK__Movies__0654D66E8CF04645">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>mName</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="49" parent="33" name="UQ__Movies__B47B9A8F421AAB94">
+      <Position>2</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>mYear
+genre</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="50" parent="33" name="PK__Movies__0654D66E8CF04645">
+      <ObjectId>2014630220</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2021-04-23.14:04:29.243</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-23.14:04:29.243</ModifiedTimestamp>
+      <ColNames>mName</ColNames>
+      <UnderlyingIndexName>PK__Movies__0654D66E8CF04645</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="51" parent="33" name="UQ__Movies__B47B9A8F421AAB94">
+      <ObjectId>2030630277</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2021-04-23.14:04:29.247</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-23.14:04:29.247</ModifiedTimestamp>
+      <ColNames>mYear
+genre</ColNames>
+      <UnderlyingIndexName>UQ__Movies__B47B9A8F421AAB94</UnderlyingIndexName>
+    </key>
+    <check id="52" parent="33" name="CK__Movies__genre__7AF13DF7">
+      <ObjectId>2062630391</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2021-04-23.14:04:29.247</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-23.14:04:29.247</ModifiedTimestamp>
+      <ColNames>genre</ColNames>
+      <Predicate>[genre]&lt;&gt;&apos;pranks&apos;</Predicate>
+    </check>
+    <check id="53" parent="33" name="CK__Movies__mLength__7BE56230">
+      <ObjectId>2078630448</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2021-04-23.14:04:29.247</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-23.14:04:29.247</ModifiedTimestamp>
+      <ColNames>mLength</ColNames>
+      <Predicate>[mLength]&lt;=120</Predicate>
+    </check>
+    <check id="54" parent="33" name="CK__Movies__mYear__79FD19BE">
+      <ObjectId>2046630334</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2021-04-23.14:04:29.247</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-23.14:04:29.247</ModifiedTimestamp>
+      <ColNames>mYear</ColNames>
+      <Predicate>[mYear]&gt;=1980 AND [mYear]&lt;=2020</Predicate>
+    </check>
+    <column id="55" parent="34" name="aID">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="56" parent="34" name="mNAME">
+      <Position>2</Position>
+      <DataType>varchar(30 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="57" parent="34" name="role">
+      <Position>3</Position>
+      <DataType>varchar(30 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="58" parent="34" name="salary">
+      <Position>4</Position>
+      <DataType>float|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="59" parent="34" name="PK__Particip__8FB4DD23ADBB7AFF">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>aID
+mNAME</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="60" parent="34" name="PK__Particip__8FB4DD23ADBB7AFF">
+      <ObjectId>2110630562</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2021-04-23.14:04:29.257</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-23.14:04:29.257</ModifiedTimestamp>
+      <ColNames>aID
+mNAME</ColNames>
+      <UnderlyingIndexName>PK__Particip__8FB4DD23ADBB7AFF</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="61" parent="34" name="FK__Participate__aID__7EC1CEDB">
+      <ObjectId>2126630619</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2021-04-23.14:04:29.257</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-23.14:04:29.257</ModifiedTimestamp>
+      <ColNames>aID</ColNames>
+      <RefTableId>1918629878</RefTableId>
+      <RefTableName>Actors</RefTableName>
+      <RefKeyName>PK__Actors__DE518BE662B0A41B</RefKeyName>
+      <RefColNames>aID</RefColNames>
+    </foreign-key>
+    <foreign-key id="62" parent="34" name="FK__Participa__mNAME__7FB5F314">
+      <ObjectId>2142630676</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2021-04-23.14:04:29.257</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-23.14:04:29.257</ModifiedTimestamp>
+      <ColNames>mNAME</ColNames>
+      <RefTableId>1998630163</RefTableId>
+      <RefTableName>Movies</RefTableName>
+      <RefKeyName>PK__Movies__0654D66E8CF04645</RefKeyName>
+      <RefColNames>mName</RefColNames>
+    </foreign-key>
+    <check id="63" parent="34" name="CK__Participated__019E3B86">
+      <ObjectId>27147142</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2021-04-23.14:04:29.260</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-23.14:04:29.260</ModifiedTimestamp>
+      <Predicate>NOT ([role]=&apos;extra&apos; AND [salary]&gt;=1000)</Predicate>
+    </check>
+    <check id="64" parent="34" name="CK__Participa__salar__00AA174D">
+      <ObjectId>11147085</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2021-04-23.14:04:29.260</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-23.14:04:29.260</ModifiedTimestamp>
+      <ColNames>salary</ColNames>
+      <Predicate>[salary]&gt;=0</Predicate>
+    </check>
   </database-model>
 </dataSource>
