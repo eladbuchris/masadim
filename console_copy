@@ -1,0 +1,133 @@
+CREATE TABLE Actors(
+     aID INT PRIMARY KEY
+         CHECK (aID>=100000000 and aID<=999999999),
+     aName VARCHAR(30) NOT NULL,
+     dateofBirth DATE NOT NULL
+            CHECK(YEAR(dateofBirth)<2005),
+     marriedTo INT CHECK (marriedTo>=100000000 and marriedTo<=999999999)
+);
+
+CREATE TABLE Movies(
+       mName VARCHAR(30) PRIMARY KEY,
+       mYear INT NOT NULL CHECK(mYear>= 1980 AND mYear<=2020),
+       genre VARCHAR(30) NOT NULL CHECK(genre!='pranks'),
+       mLength INT CHECK(mLength<=120),
+       UNIQUE (mYear,genre)
+);
+
+CREATE TABLE Participated(
+   aID INT, FOREIGN KEY(aID) REFERENCES Actors,
+   mNAME VARCHAR(30), FOREIGN KEY(mNAME) REFERENCES Movies,
+   role VARCHAR(30) NOT NULL,
+   salary FLOAT NOT NULL CHECK (salary>=0),
+   CHECK(NOT(role = 'extra' and salary>=1000)),
+   PRIMARY KEY (aID,mNAME)
+);
+
+INSERT INTO Actors (aID,aName,dateofBirth,marriedTo)
+--     VALUES (700000000,'ABC','1996-01-19',400000000),
+--            (400000000,'ABCD','1997-01-19',700000000),
+--            (500000000,'ABCD','1994-01-19',NULL),
+--            (600000000,'ABCD','1997-01-19',NULL),
+--            (200000000,'ABCD','1997-01-19',NULL),
+--            (100000000,'ABCD','1997-01-19',NULL),
+--            (210000000,'ABCD','1997-01-19',NULL),
+--            (220000000,'ABCD','1997-01-19',NULL),
+--            (260000000,'ABCD','1997-01-19',NULL),
+--            (270000000,'ABCD','1997-01-19',NULL),
+--            (280000000,'ABCD','1997-01-19',NULL),
+--            (290000000,'ABCD','1997-01-19',NULL)
+        VALUES (123329422,'Alex','1994-12-12',NULL),
+               (201231221,'Zeev','1995-12-12',NULL),
+               (201321321,'Dana','1994-11-02',NULL),
+               (203141232,'Dana','1994-11-02',NULL),
+               (204324212,'Tamir','1995-06-04',NULL),
+               (206432312,'Gili','1994-03-07',210025011),
+               (210025011,'Rav','1995-06-04',206432312),
+               (213132122,'Tamir','1995-06-04',NULL),
+               (213432122,'Gili','1994-03-07',NULL),
+               (234542311,'Sam','1992-12-12',NULL),
+               (342522131,'Dave','1995-06-04',NULL)
+
+
+
+INSERT INTO Movies(mName, mYear, genre, mLength)
+    VALUES --('a',2000,'a',110),('b',1999,'a',110)
+           ('Chaplin',1980,'thriller',82),
+           ('Django',1998,'comedy',88),
+           ('Forest',1992,'thriller',76),
+           ('Sally',1996,'thriller',77),
+           ('Titanic',1993,'thriller',69)
+
+
+INSERT INTO Participated(aID, mNAME, role, salary)
+--     VALUES (700000000,'b','tr',6000),
+--            (400000000,'b','tr',4000),
+--            (400000000,'a','tr',6000),
+--            (500000000,'b','tr',6000),
+--            (600000000,'b','tr',6000),
+--            (200000000,'b','tr',6000),
+--            (100000000,'b','tr',6000),
+--            (210000000,'b','tr',6000),
+--            (220000000,'b','tr',6000),
+--            (270000000,'b','tr',6000),
+--            (280000000,'b','tr',6000),
+--            (290000000,'b','tr',6000),
+--            (700000000,'a','tr',6000),
+--            (500000000,'a','tr',6000),
+--            (600000000,'a','tr',6000),
+--            (200000000,'a','tr',6000),
+--            (100000000,'a','tr',6000),
+--            (210000000,'a','tr',6000),
+--            (220000000,'a','tr',6000),
+--            (270000000,'a','tr',6000),
+--            (280000000,'a','tr',6000),
+--            (290000000,'a','tr',6000)
+VALUES (123329422,'Forest','extra',3500),
+       (123329422,'Titanic','lead',3500),
+       (201321321,'Forest','lead',3500),
+       (201321321,'Titanic','lead',3500),
+       (203141232,'Forest','lead',3500),
+       (203141232,'Titanic','lead',3500),
+       (204324212,'Chaplin','lead',3500),
+       (204324212,'Forest','lead',3500),
+       (204324212,'Titanic','lead',3500),
+       (206432312,'Chaplin','co-star',6000),
+       (206432312,'Django','co-star',6000),
+       (206432312,'Forest','co-star',6000),
+       (206432312,'Titanic','co-star',6000),
+       (210025011,'Chaplin','lead',6000),
+       (210025011,'Django','lead',6000),
+       (210025011,'Forest','lead',6000),
+        (210025011,'Titanic','lead',6000),
+        (213132122,'Chaplin','lead',3500),
+        (213132122,'Forest','lead',3500),
+        (213132122,'Titanic','lead',3500),
+        (234542311,'Chaplin','lead',3500),
+        (234542311,'Forest','lead',3500),
+        (234542311,'Titanic','lead',3500),
+        (342522131, 'Chaplin', 'lead', 3500),
+        (342522131, 'Forest', 'lead', 3500),
+        (342522131, 'Titanic', 'lead', 3500)
+
+SELECT DISTINCT A.aID,A.aNAME
+FROM Actors A, Participated P1, Participated P2
+    WHERE (P1.mNAME = P2.mNAME AND A.aID = P1.aID AND A.marriedTo = P2.aID)
+        INTERSECT
+SELECT DISTINCT A.aID,A.aNAME
+    FROM Actors A, Participated P
+    WHERE (5000<ALL(SELECT P.salary FROM Participated P WHERE P.aID = A.aID ))
+
+SELECT  M.mNAME,M.mYear
+    FROM Actors A, Movies M
+        WHERE M.mYear<ANY(SELECT YEAR(dateofBirth)
+                     FROM  Participated P
+                        WHERE (M.mName = P.mNAME AND P.aID = A.aID AND M.genre != 'comedy' AND M.mLength>70))
+INTERSECT
+SELECT  M.mNAME,M.mYear
+    FROM Movies M
+        WHERE 10<(SELECT COUNT(P.aID)
+                  FROM Participated P
+                  WHERE (P.mNAME = M.mNAME)
+                  GROUP BY P.mNAME)
+ORDER BY mYear DESC
