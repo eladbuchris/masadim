@@ -4,7 +4,8 @@ CREATE TABLE Actors(
      aName VARCHAR(30) NOT NULL,
      dateofBirth DATE NOT NULL
             CHECK(YEAR(dateofBirth)<2005),
-     marriedTo INT CHECK (marriedTo>=100000000 and marriedTo<=999999999)
+     marriedTo INT CHECK (marriedTo>=100000000 and marriedTo<=999999999),
+     FOREIGN KEY (marriedTo) REFERENCES Actors(aID)
 );
 
 CREATE TABLE Movies(
@@ -25,10 +26,10 @@ CREATE TABLE Participated(
 );
 
 INSERT INTO Actors (aID,aName,dateofBirth,marriedTo)
---     VALUES (700000000,'ABC','1996-01-19',400000000),
---            (400000000,'ABCD','1997-01-19',700000000),
---            (500000000,'ABCD','1994-01-19',NULL),
---            (600000000,'ABCD','1997-01-19',NULL),
+    VALUES (700000000,'ABC','1996-01-19',400000000),
+           (400000000,'ABCD','1997-01-19',700000000),
+           (500000000,'ABCD','1994-01-19',200000000),
+           (600000000,'ABCD','1997-01-19',NULL)
 --            (200000000,'ABCD','1997-01-19',NULL),
 --            (100000000,'ABCD','1997-01-19',NULL),
 --            (210000000,'ABCD','1997-01-19',NULL),
@@ -37,17 +38,17 @@ INSERT INTO Actors (aID,aName,dateofBirth,marriedTo)
 --            (270000000,'ABCD','1997-01-19',NULL),
 --            (280000000,'ABCD','1997-01-19',NULL),
 --            (290000000,'ABCD','1997-01-19',NULL)
-        VALUES (123329422,'Alex','1994-12-12',NULL),
-               (201231221,'Zeev','1995-12-12',NULL),
-               (201321321,'Dana','1994-11-02',NULL),
-               (203141232,'Dana','1994-11-02',NULL),
-               (204324212,'Tamir','1995-06-04',NULL),
-               (206432312,'Gili','1994-03-07',210025011),
-               (210025011,'Rav','1995-06-04',206432312),
-               (213132122,'Tamir','1995-06-04',NULL),
-               (213432122,'Gili','1994-03-07',NULL),
-               (234542311,'Sam','1992-12-12',NULL),
-               (342522131,'Dave','1995-06-04',NULL)
+--         VALUES (123329422,'Alex','1994-12-12',NULL),
+--                (201231221,'Zeev','1995-12-12',NULL),
+--                (201321321,'Dana','1994-11-02',NULL),
+--                (203141232,'Dana','1994-11-02',NULL),
+--                (204324212,'Tamir','1995-06-04',NULL),
+--                (206432312,'Gili','1994-03-07',210025011),
+--                (210025011,'Rav','1995-06-04',206432312),
+--                (213132122,'Tamir','1995-06-04',NULL),
+--                (213432122,'Gili','1994-03-07',NULL),
+--                (234542311,'Sam','1992-12-12',NULL),
+--                (342522131,'Dave','1995-06-04',NULL)
 
 
 
