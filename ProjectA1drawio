@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-15T13:04:16.677Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="nzegPq6UU-g9p2Oe7QAo" version="14.6.13" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-05-15T13:05:09.920Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="V8c4-NOUl70C9OxrcRTg" version="14.6.13" type="github" pages="3">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="תוכן">
     <mxGraphModel dx="1021" dy="529" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -347,12 +347,6 @@
         <mxCell id="dWuVbm4Ka1s8KR7MBQLA-45" value="jealous -מקנא" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="53rNAKNI3C5tuyTkHN9e-1">
           <mxGeometry x="417" y="109" width="70" height="63" as="geometry" />
         </mxCell>
-        <mxCell id="dWuVbm4Ka1s8KR7MBQLA-47" value="" style="endArrow=classic;html=1;fontSize=12;strokeColor=#000000;strokeWidth=1;" edge="1" parent="53rNAKNI3C5tuyTkHN9e-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="536" y="362" as="sourcePoint" />
-            <mxPoint x="586" y="312" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="dWuVbm4Ka1s8KR7MBQLA-51" value="" style="endArrow=none;html=1;fontSize=12;strokeColor=#000000;strokeWidth=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="53rNAKNI3C5tuyTkHN9e-1" source="7tONicYqF_x55ilEinov-7" target="dWuVbm4Ka1s8KR7MBQLA-45">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="359" y="211" as="sourcePoint" />
@@ -364,6 +358,15 @@
             <mxPoint x="510" y="220" as="sourcePoint" />
             <mxPoint x="560" y="170" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="dWuVbm4Ka1s8KR7MBQLA-54" value="" style="endArrow=none;html=1;fontSize=12;strokeColor=#000000;strokeWidth=1;" edge="1" parent="53rNAKNI3C5tuyTkHN9e-1" target="dWuVbm4Ka1s8KR7MBQLA-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="452" y="109" as="sourcePoint" />
+            <mxPoint x="420" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dWuVbm4Ka1s8KR7MBQLA-55" value="Reason - סיבה" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="53rNAKNI3C5tuyTkHN9e-1">
+          <mxGeometry x="351" y="22" width="84" height="64" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
