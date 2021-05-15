@@ -1,1 +1,350 @@
-<mxfile host="app.diagrams.net" modified="2021-05-15T12:09:59.834Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="t1IeuPIFnf3emT_UdTqk" version="14.6.13" type="github"><diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">7Vttb5s6GP01SHcfVoEJSfuxYckmLbmr2m77eOWCA9YIRsZ526+fDTaEOGlhd2m8JlLUwMMTg59zfGyfJpbrz9cfKcziKQlRYgE7XFvuBwsABwCXv4nIpowMbgZlIKI4lEl14AH/RDJoy+gChyhvJDJCEoazZjAgaYoC1ohBSsmqmTYjSfOuGYyQFngIYKJHv+OQxWX02rPr+CeEo1jd2bHllTlUyTKQxzAkq0YIrdmYpEw+4h2ic5iilPErU0h/IGp5o5gx0dNbC4z5ayayryJCogTBDOdXAZnzcJDzlPEMznEiyrzV0FA2xG/njizXp4Sw8mi+9lEisFIwlM80PnC1qgMV7bb4gP9+uZn8sFn6aeV+Y9NpdDd4ei9bWcJkIesra8M2quAo5PWXp/xWmG3uUQIZJumovjJEaXgr0OVJo/ufiJJHMoUp7/wwZ5Cy+hpJZfoY88dzPzgqRZ7b/FzvmnzOnCxogJ7pD+hJSkIaIfZMYl8CHjbYJiv3EZE5YnTDE1Y1xyomxdv8UkFaFGXZZCmUTIqqBqt73BFcEEsOTLcn21HDUlFSNVF2XX5qG+adhno7DfV3GypLozXED7Y6XocKFnVhFHhjlHJbMsoZGEapnt1kgnP9u5TqNxsCtveqlNIZ9YWGiOYar7iiZ+KQwaeCQQUJ5BTmChbwSYlBnHL9LVkSkCSBWY6L9DIS4yScwA1ZMNWQOhvO8BqF9+UMJnI5/ya8sVxSTMwFitXiMkxwlPLjgFNO3HFIUc6fZQJzJjMOknKJKEPrZ1mksPF2QFbDfYtlwNvHMtc+TKgGgl3hcl8WAAUU7zrDMLnnCwWYRgVmTUhEXUNKskc1+kQgE0RDdLRE5VRdFJ8PdZ8kRCCbloJQpBWd84b8xbvr21ee5fEH8Pm5U5/zl0inzCdpzijEBRyIA7VCAqwhI5m8T4Jm6jGoLKY4fiKM8Zn/EKzP0vplrCW2bktoj4ZsT0P27nMXbAnv6ywpVDvGYYjSckiKdSKs8d4D5d76VzXfBWN3ILbEw22NxxYA7mvW39PqT4QQ/sc/5APr1i5V+98vj+Lv18nEqpa6JsGjdLHMHeYZDHAaTcpP9nfw846B39o6OJ7Aa+LZP2el3L8q+zNK2T+1Ug40ZMefnS7gvtJYbAlAvzUAp5LGa63gwSLnfS7VEeyRRuOweFEX/zhYpujgzUUHj6ODN6fWQeUa/ia0ZqngTevyn0oFHd3PK1eIIWSIx+XbWchge7RMkUFH3zk/xDibF6J18To0rwNct5S343kdjr4lPqOpq8Pm2mm/OzPF7XD07fZbsjsq6ho8nekb5FwK4sXz6AqiMbOcvjc+I8nssNzsLpkntz0cfRv+V/seFVcN1kh981yZwmdle3TAyhQpBP9vd3yRQoOdD6BvxQ0cfC3rXxHVXB1U5d23VjxD96MDYsaooW5/+NLDv9gf1tZXOzp/1cM+GmQX+6PlcPz77A/wtu0PYL79AXT746V/ap6T99EBQWOmuIv3cSy9PLn3AXTvw8DB2Lb+5hsfQDc+KnVM4Vys9IMY0n88+93ZLPpNskD4af3jlvKr4PUvktzRLw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-15T12:59:30.312Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="2KlFSplJYkYPlKs2aVYc" version="14.6.13" type="github" pages="3">
+  <diagram id="R2lEEEUBdFMjLlhIrx00" name="תוכן">
+    <mxGraphModel dx="1021" dy="529" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1Wspxn3PdDkj3Srh3TA4-2" value="Content- תוכן" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="514" y="269" width="120" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="1Wspxn3PdDkj3Srh3TA4-3" value="&lt;u&gt;Name - שם&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="372" y="126" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1Wspxn3PdDkj3Srh3TA4-9" value="" style="endArrow=none;html=1;strokeColor=#000000;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1Wspxn3PdDkj3Srh3TA4-3" target="1Wspxn3PdDkj3Srh3TA4-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="549" y="322" as="sourcePoint" />
+            <mxPoint x="599" y="272" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Wspxn3PdDkj3Srh3TA4-13" value="" style="endArrow=none;html=1;strokeColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="626" y="180" as="sourcePoint" />
+            <mxPoint x="602" y="265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Wspxn3PdDkj3Srh3TA4-16" value="" style="endArrow=none;html=1;strokeColor=#000000;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1Wspxn3PdDkj3Srh3TA4-2" target="1Wspxn3PdDkj3Srh3TA4-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="545.426406871193" y="301.28427124746213" as="sourcePoint" />
+            <mxPoint x="585" y="376" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Wspxn3PdDkj3Srh3TA4-17" value="" style="endArrow=none;html=1;strokeColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="1Wspxn3PdDkj3Srh3TA4-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="633.9964068711929" y="263.28427124746213" as="sourcePoint" />
+            <mxPoint x="737" y="291" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="652.5699999999999" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Wspxn3PdDkj3Srh3TA4-19" value="Language- שפה" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="585" y="103" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1Wspxn3PdDkj3Srh3TA4-21" value="Date of upload - תאריך העלאה" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="741" y="258" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1Wspxn3PdDkj3Srh3TA4-22" value="Weighted avg - ציון ממוצע משוקלל" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="249" y="281" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UZ5KOcTLTlDLVVqoVvYH-1" value="" style="endArrow=none;html=1;strokeColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="574" y="383" as="sourcePoint" />
+            <mxPoint x="574" y="327" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UZ5KOcTLTlDLVVqoVvYH-4" value="ISA" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.acute_triangle;dx=0.5;horizontal=1;labelPosition=center;align=center;" vertex="1" parent="1">
+          <mxGeometry x="524" y="382" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="UZ5KOcTLTlDLVVqoVvYH-9" value="" style="endArrow=none;html=1;strokeColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="486" y="516" as="sourcePoint" />
+            <mxPoint x="542" y="452" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UZ5KOcTLTlDLVVqoVvYH-10" value="" style="endArrow=none;html=1;strokeColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="651" y="511" as="sourcePoint" />
+            <mxPoint x="600" y="452" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UZ5KOcTLTlDLVVqoVvYH-11" value="Series-סדרה" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="424" y="515" width="120" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="UZ5KOcTLTlDLVVqoVvYH-12" value="Movie-סרט" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="515" width="120" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="UZ5KOcTLTlDLVVqoVvYH-13" value="Cover" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="547" y="458" width="50" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="UZ5KOcTLTlDLVVqoVvYH-14" value="" style="endArrow=none;html=1;fontSize=15;strokeColor=#000000;" edge="1" parent="1" source="UZ5KOcTLTlDLVVqoVvYH-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="599" y="639" as="sourcePoint" />
+            <mxPoint x="599" y="575" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UZ5KOcTLTlDLVVqoVvYH-16" value="Total Income in theatere-סך&amp;nbsp; הכנסות בקולנוע" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="597" y="635" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UZ5KOcTLTlDLVVqoVvYH-17" value="" style="endArrow=none;html=1;fontSize=15;strokeColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="639" as="sourcePoint" />
+            <mxPoint x="482" y="576" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UZ5KOcTLTlDLVVqoVvYH-19" value="Genre-ז&#39;אנר" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="400" y="641" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="SxCKgg4xHZJNA2DbBMuh" name="איש תוכן">
+    <mxGraphModel dx="868" dy="450" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="IHv7T3HyYxgG1-ECE7Sp-0" />
+        <mxCell id="IHv7T3HyYxgG1-ECE7Sp-1" parent="IHv7T3HyYxgG1-ECE7Sp-0" />
+        <mxCell id="qZ_7utxkXmRAwmHfSo4_-0" value="Content Person- איש תוכן" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="IHv7T3HyYxgG1-ECE7Sp-1">
+          <mxGeometry x="383" y="204" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AvABHpu02pzj1ZzgtUK6-0" value="&lt;u&gt;Name-שם&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="IHv7T3HyYxgG1-ECE7Sp-1">
+          <mxGeometry x="246" y="79" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AvABHpu02pzj1ZzgtUK6-1" value="" style="endArrow=none;html=1;fontSize=15;strokeColor=#000000;" edge="1" parent="IHv7T3HyYxgG1-ECE7Sp-1" source="AvABHpu02pzj1ZzgtUK6-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="418" y="250" as="sourcePoint" />
+            <mxPoint x="402" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GnDHNLqtgGVGs4Ksl5O6-0" value="ISA" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.acute_triangle;dx=0.5;horizontal=1;labelPosition=center;align=center;" vertex="1" parent="IHv7T3HyYxgG1-ECE7Sp-1">
+          <mxGeometry x="395" y="328" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GnDHNLqtgGVGs4Ksl5O6-1" value="" style="endArrow=none;html=1;strokeColor=#000000;" edge="1" parent="IHv7T3HyYxgG1-ECE7Sp-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="357" y="462" as="sourcePoint" />
+            <mxPoint x="413" y="398" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GnDHNLqtgGVGs4Ksl5O6-2" value="" style="endArrow=none;html=1;strokeColor=#000000;exitX=0.525;exitY=0.017;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="IHv7T3HyYxgG1-ECE7Sp-1" source="GnDHNLqtgGVGs4Ksl5O6-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="527" y="457" as="sourcePoint" />
+            <mxPoint x="471" y="398" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GnDHNLqtgGVGs4Ksl5O6-3" value="Director-במאי" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IHv7T3HyYxgG1-ECE7Sp-1">
+          <mxGeometry x="295" y="461" width="120" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="GnDHNLqtgGVGs4Ksl5O6-4" value="Actor-שחקן" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IHv7T3HyYxgG1-ECE7Sp-1">
+          <mxGeometry x="471" y="461" width="120" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="GnDHNLqtgGVGs4Ksl5O6-5" value="Cover" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=15;" vertex="1" parent="IHv7T3HyYxgG1-ECE7Sp-1">
+          <mxGeometry x="418" y="404" width="50" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="GnDHNLqtgGVGs4Ksl5O6-6" value="" style="endArrow=none;html=1;fontSize=15;strokeColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="IHv7T3HyYxgG1-ECE7Sp-1" source="qZ_7utxkXmRAwmHfSo4_-0" target="GnDHNLqtgGVGs4Ksl5O6-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="418" y="442" as="sourcePoint" />
+            <mxPoint x="468" y="392" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GnDHNLqtgGVGs4Ksl5O6-8" value="Overlaps" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=15;" vertex="1" parent="IHv7T3HyYxgG1-ECE7Sp-1">
+          <mxGeometry x="410" y="423" width="70" height="22" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="8D3VXUEBSCFlu-fu8tk4" name="combined">
+    <mxGraphModel dx="1240" dy="643" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="53rNAKNI3C5tuyTkHN9e-0" />
+        <mxCell id="53rNAKNI3C5tuyTkHN9e-1" parent="53rNAKNI3C5tuyTkHN9e-0" />
+        <mxCell id="7tONicYqF_x55ilEinov-0" value="Content Person- איש תוכן" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="53rNAKNI3C5tuyTkHN9e-1">
+          <mxGeometry x="138" y="122" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7tONicYqF_x55ilEinov-1" value="&lt;u&gt;Name-שם&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="53rNAKNI3C5tuyTkHN9e-1">
+          <mxGeometry x="31" y="39" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7tONicYqF_x55ilEinov-2" value="" style="endArrow=none;html=1;fontSize=15;strokeColor=#000000;entryX=0.588;entryY=-0.038;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="53rNAKNI3C5tuyTkHN9e-1" source="7tONicYqF_x55ilEinov-1" target="7tONicYqF_x55ilEinov-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="203" y="210" as="sourcePoint" />
+            <mxPoint x="187" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7tONicYqF_x55ilEinov-3" value="ISA" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.acute_triangle;dx=0.5;horizontal=1;labelPosition=center;align=center;" vertex="1" parent="53rNAKNI3C5tuyTkHN9e-1">
+          <mxGeometry x="170" y="238" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7tONicYqF_x55ilEinov-4" value="" style="endArrow=none;html=1;strokeColor=#000000;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="53rNAKNI3C5tuyTkHN9e-1" source="7tONicYqF_x55ilEinov-6" target="7tONicYqF_x55ilEinov-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="142" y="422" as="sourcePoint" />
+            <mxPoint x="198" y="358" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7tONicYqF_x55ilEinov-5" value="" style="endArrow=none;html=1;strokeColor=#000000;exitX=0.525;exitY=0.017;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=75;entryDy=35;entryPerimeter=0;" edge="1" parent="53rNAKNI3C5tuyTkHN9e-1" source="7tONicYqF_x55ilEinov-7" target="7tONicYqF_x55ilEinov-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="312" y="417" as="sourcePoint" />
+            <mxPoint x="256" y="358" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7tONicYqF_x55ilEinov-6" value="Director-במאי" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="53rNAKNI3C5tuyTkHN9e-1">
+          <mxGeometry x="368" y="328" width="120" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="7tONicYqF_x55ilEinov-7" value="Actor-שחקן" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="53rNAKNI3C5tuyTkHN9e-1">
+          <mxGeometry x="392" y="220" width="120" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="7tONicYqF_x55ilEinov-8" value="Cover" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=15;" vertex="1" parent="53rNAKNI3C5tuyTkHN9e-1">
+          <mxGeometry x="286" y="267" width="50" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="7tONicYqF_x55ilEinov-9" value="" style="endArrow=none;html=1;fontSize=15;strokeColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="53rNAKNI3C5tuyTkHN9e-1" source="7tONicYqF_x55ilEinov-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="203" y="402" as="sourcePoint" />
+            <mxPoint x="222" y="238" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7tONicYqF_x55ilEinov-10" value="Overlaps" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=15;" vertex="1" parent="53rNAKNI3C5tuyTkHN9e-1">
+          <mxGeometry x="278" y="286" width="70" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="dWuVbm4Ka1s8KR7MBQLA-0" value="Content- תוכן" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="53rNAKNI3C5tuyTkHN9e-1">
+          <mxGeometry x="837" y="172" width="120" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="dWuVbm4Ka1s8KR7MBQLA-1" value="&lt;u&gt;Name - שם&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="53rNAKNI3C5tuyTkHN9e-1">
+          <mxGeometry x="727" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dWuVbm4Ka1s8KR7MBQLA-2" value="" style="endArrow=none;html=1;strokeColor=#000000;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="53rNAKNI3C5tuyTkHN9e-1" source="dWuVbm4Ka1s8KR7MBQLA-1" target="dWuVbm4Ka1s8KR7MBQLA-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="872" y="225" as="sourcePoint" />
+            <mxPoint x="922" y="175" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dWuVbm4Ka1s8KR7MBQLA-3" value="" style="endArrow=none;html=1;strokeColor=#000000;" edge="1" parent="53rNAKNI3C5tuyTkHN9e-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="949" y="83" as="sourcePoint" />
+            <mxPoint x="925" y="168" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dWuVbm4Ka1s8KR7MBQLA-4" value="" style="endArrow=none;html=1;strokeColor=#000000;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="53rNAKNI3C5tuyTkHN9e-1" source="dWuVbm4Ka1s8KR7MBQLA-0" target="dWuVbm4Ka1s8KR7MBQLA-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="868.426406871193" y="204.28427124746213" as="sourcePoint" />
+            <mxPoint x="908" y="279" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dWuVbm4Ka1s8KR7MBQLA-6" value="Language- שפה" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="53rNAKNI3C5tuyTkHN9e-1">
+          <mxGeometry x="908" y="6" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dWuVbm4Ka1s8KR7MBQLA-7" value="Date of upload - תאריך העלאה" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="53rNAKNI3C5tuyTkHN9e-1">
+          <mxGeometry x="1064" y="161" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dWuVbm4Ka1s8KR7MBQLA-8" value="Weighted avg - ציון ממוצע משוקלל" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="53rNAKNI3C5tuyTkHN9e-1">
+          <mxGeometry x="591.5" y="6" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dWuVbm4Ka1s8KR7MBQLA-9" value="" style="endArrow=none;html=1;strokeColor=#000000;" edge="1" parent="53rNAKNI3C5tuyTkHN9e-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="897" y="286" as="sourcePoint" />
+            <mxPoint x="897" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dWuVbm4Ka1s8KR7MBQLA-10" value="ISA" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.acute_triangle;dx=0.5;horizontal=1;labelPosition=center;align=center;" vertex="1" parent="53rNAKNI3C5tuyTkHN9e-1">
+          <mxGeometry x="847" y="285" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dWuVbm4Ka1s8KR7MBQLA-11" value="" style="endArrow=none;html=1;strokeColor=#000000;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="53rNAKNI3C5tuyTkHN9e-1" source="dWuVbm4Ka1s8KR7MBQLA-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="809" y="419" as="sourcePoint" />
+            <mxPoint x="865" y="355" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dWuVbm4Ka1s8KR7MBQLA-12" value="" style="endArrow=none;html=1;strokeColor=#000000;entryX=0.06;entryY=0.833;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="53rNAKNI3C5tuyTkHN9e-1" target="dWuVbm4Ka1s8KR7MBQLA-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="773" y="365" as="sourcePoint" />
+            <mxPoint x="923" y="355" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dWuVbm4Ka1s8KR7MBQLA-13" value="Series-סדרה" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="53rNAKNI3C5tuyTkHN9e-1">
+          <mxGeometry x="656" y="499" width="120" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="dWuVbm4Ka1s8KR7MBQLA-14" value="Movie-סרט" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="53rNAKNI3C5tuyTkHN9e-1">
+          <mxGeometry x="647" y="328" width="120" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="dWuVbm4Ka1s8KR7MBQLA-15" value="Cover" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=15;" vertex="1" parent="53rNAKNI3C5tuyTkHN9e-1">
+          <mxGeometry x="793" y="364" width="50" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="dWuVbm4Ka1s8KR7MBQLA-16" value="" style="endArrow=none;html=1;fontSize=15;strokeColor=#000000;" edge="1" parent="53rNAKNI3C5tuyTkHN9e-1" source="dWuVbm4Ka1s8KR7MBQLA-17" target="dWuVbm4Ka1s8KR7MBQLA-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="922" y="542" as="sourcePoint" />
+            <mxPoint x="922" y="478" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dWuVbm4Ka1s8KR7MBQLA-17" value="Total Income in theatere-סך&amp;nbsp; הכנסות בקולנוע" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="53rNAKNI3C5tuyTkHN9e-1">
+          <mxGeometry x="672" y="408" width="95" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="dWuVbm4Ka1s8KR7MBQLA-18" value="" style="endArrow=none;html=1;fontSize=15;strokeColor=#000000;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0.71;exitY=0.019;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="53rNAKNI3C5tuyTkHN9e-1" source="dWuVbm4Ka1s8KR7MBQLA-19" target="dWuVbm4Ka1s8KR7MBQLA-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="661" y="572" as="sourcePoint" />
+            <mxPoint x="683" y="509" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dWuVbm4Ka1s8KR7MBQLA-19" value="Genre-ז&#39;אנר" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="53rNAKNI3C5tuyTkHN9e-1">
+          <mxGeometry x="534" y="600" width="103" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="dWuVbm4Ka1s8KR7MBQLA-21" value="ביים" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="53rNAKNI3C5tuyTkHN9e-1">
+          <mxGeometry x="531" y="328" width="60" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="dWuVbm4Ka1s8KR7MBQLA-31" value="" style="endArrow=none;html=1;fontSize=50;strokeColor=#000000;fontStyle=0;strokeWidth=4;" edge="1" parent="53rNAKNI3C5tuyTkHN9e-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="491" y="360" as="sourcePoint" />
+            <mxPoint x="528" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dWuVbm4Ka1s8KR7MBQLA-32" value="" style="endArrow=classic;html=1;fontSize=50;strokeColor=#000000;strokeWidth=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="53rNAKNI3C5tuyTkHN9e-1" source="dWuVbm4Ka1s8KR7MBQLA-14" target="dWuVbm4Ka1s8KR7MBQLA-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="534" y="404" as="sourcePoint" />
+            <mxPoint x="593" y="354" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dWuVbm4Ka1s8KR7MBQLA-33" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fontSize=50;strokeColor=#000000;strokeWidth=1;" edge="1" parent="53rNAKNI3C5tuyTkHN9e-1" source="7tONicYqF_x55ilEinov-0" target="7tONicYqF_x55ilEinov-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dWuVbm4Ka1s8KR7MBQLA-35" value="שיחק" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="53rNAKNI3C5tuyTkHN9e-1">
+          <mxGeometry x="603" y="207" width="60" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="dWuVbm4Ka1s8KR7MBQLA-36" value="" style="endArrow=none;html=1;fontSize=50;strokeColor=#000000;strokeWidth=1;" edge="1" parent="53rNAKNI3C5tuyTkHN9e-1" target="dWuVbm4Ka1s8KR7MBQLA-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="512" y="257" as="sourcePoint" />
+            <mxPoint x="601" y="244" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dWuVbm4Ka1s8KR7MBQLA-37" value="" style="endArrow=none;html=1;fontSize=50;strokeColor=#000000;strokeWidth=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="53rNAKNI3C5tuyTkHN9e-1" source="dWuVbm4Ka1s8KR7MBQLA-0" target="dWuVbm4Ka1s8KR7MBQLA-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="757" y="231" as="sourcePoint" />
+            <mxPoint x="708" y="318" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dWuVbm4Ka1s8KR7MBQLA-38" value="" style="endArrow=none;html=1;fontSize=50;strokeColor=#000000;strokeWidth=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0.716;exitY=0.982;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="53rNAKNI3C5tuyTkHN9e-1" source="dWuVbm4Ka1s8KR7MBQLA-40" target="dWuVbm4Ka1s8KR7MBQLA-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="552" y="161" as="sourcePoint" />
+            <mxPoint x="634" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dWuVbm4Ka1s8KR7MBQLA-40" value="Salary-שכר" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="53rNAKNI3C5tuyTkHN9e-1">
+          <mxGeometry x="497" y="99" width="98" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="dWuVbm4Ka1s8KR7MBQLA-41" value="" style="endArrow=none;html=1;fontSize=12;strokeColor=#000000;strokeWidth=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="53rNAKNI3C5tuyTkHN9e-1" source="dWuVbm4Ka1s8KR7MBQLA-0" target="dWuVbm4Ka1s8KR7MBQLA-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="957" y="204" as="sourcePoint" />
+            <mxPoint x="1007" y="154" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dWuVbm4Ka1s8KR7MBQLA-42" value="אוהב" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="53rNAKNI3C5tuyTkHN9e-1">
+          <mxGeometry x="502" y="460" width="66" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="dWuVbm4Ka1s8KR7MBQLA-43" value="" style="endArrow=classic;html=1;fontSize=12;strokeColor=#000000;strokeWidth=3;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="53rNAKNI3C5tuyTkHN9e-1" source="7tONicYqF_x55ilEinov-6" target="dWuVbm4Ka1s8KR7MBQLA-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="416" y="447" as="sourcePoint" />
+            <mxPoint x="533" y="478" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dWuVbm4Ka1s8KR7MBQLA-44" value="" style="endArrow=none;html=1;fontSize=12;strokeColor=#000000;strokeWidth=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="53rNAKNI3C5tuyTkHN9e-1" source="dWuVbm4Ka1s8KR7MBQLA-13" target="dWuVbm4Ka1s8KR7MBQLA-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="536" y="539" as="sourcePoint" />
+            <mxPoint x="586" y="489" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
